@@ -39,32 +39,87 @@
         </nav>
     </header>
 
-    <!-- About us page with 4-tab window, contactinfo, and 
-        map that can be taken from Google API-->
     <section> <!-- tabs -->
-        <div class="container-fluid ">
+        <div class="container fluid">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Who we are</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Goal</a>
                 </li>
                 <li class="nav-item" role="presentation">
                   <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
                 </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="social-tab" data-toggle="tab" href="#social" role="tab" aria-controls="social" aria-selected="false">Social media</a>
+                </li>
               </ul>
               <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="Images/hometab-med.jpg">
+                      </div>
+                      <div class="col-9">
+                        <p class="card-text">Text place.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="Images/profiletab-med.jpg">
+                      </div>
+                      <div class="col-9">
+                        <p class="card-text">Text place.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="Images/contacttab-med.jpg">
+                      </div>
+                      <div class="col-9">
+                        <p class="card-text">Text place.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="Images/socialtab-med.jpg">
+                      </div>
+                      <div class="col-9">
+                        <p class="card-text">Text place.</p>
+                      </div>
+                    </div>
+                </div>
               </div>
             </div>
     </section>
 
-    <section>
-        <!-- Google maps -->
+    <div class="container fluid">
+        <p>Contacts</p>
+    </div>
 
+    <section><!-- Google maps -->
+    <div class="container fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <iframe width="350" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Br%C4%ABv%C4%ABbas%20gatve%20214%2C%20Vidzemes%20priek%C5%A1pils%C4%93ta%2C%20R%C4%ABga%2C%20LV-1039&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+            <div class="col-md-8">
+                <h5>Address:</h5>
+                <p>Brīvības gatve 214, Riga, LV-1039</p>
+                <h5>Email:</h5>
+                <a href="">info@samplepage.com</a>
+                <h5>Phone:</h5>
+                <p>+371 26663131</p>
+            </div>
+        </div>
+    </div>
     </section>
 
     <footer class="pt-5 pb-5 bg-light"> <!-- footer -->
