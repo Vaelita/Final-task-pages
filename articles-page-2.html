@@ -6,7 +6,7 @@
     <title>Articles</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="css/final.css">
 </head>
 <body>
     <header class="pt-5 pb-5">
@@ -17,7 +17,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="landing-page-1.html">Home<span class="sr-only">(current)</span></a>
                 </li>
@@ -38,12 +38,22 @@
     </nav>
     </header>
 
-    <!-- Articles 1, 2 and 3 (3x the same) and the pagination bar-->
-    <section class="container">
+    <section> <!--breadcrumb part-->
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="landing-page-1.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Articles</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <section class="container"> <!-- Articles 1, 2 and 3 and the pagination bar-->
         <div class="card mb-3">
             <div class="row">
               <div class="col-md-4">
-                <img src="Images/supportcat.jpg" class="card-img">
+                <a href="article1-page-3.html"><img src="Images/supportcat.jpg" class="card-img"></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -57,7 +67,7 @@
           <div class="card mb-3">
             <div class="row">
               <div class="col-md-4">
-                <img src="Images/comfort.jpg" class="card-img">
+                <a href="article1-page-3.html"><img src="Images/comfort.jpg" class="card-img"></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -71,7 +81,7 @@
           <div class="card mb-3">
             <div class="row">
               <div class="col-md-4">
-                <img src="Images/moodatm.jpg" class="card-img">
+                <a href="article1-page-3.html"><img src="Images/moodatm.jpg" class="card-img"></a>
               </div>
               <div class="col-md-8">
                 <div class="card-body">
@@ -98,7 +108,6 @@
           </nav>
     </section>
 
-
     <footer class="pt-5 pb-5 bg-light"> <!-- footer -->
         <div class="container">
             <p>&copy; 2020 All rights reserved</p>
@@ -109,6 +118,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="final.js"></script>
+    <script src="js/final.js"></script>
 </body>
 </html>

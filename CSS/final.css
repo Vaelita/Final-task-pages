@@ -1,6 +1,13 @@
-/* body {
-    background-color: rgb(166, 223, 166);
-} */
+
+.breadcrumb-item {
+    color: black;
+    cursor: pointer;
+}
+
+.breadcrumb, .breadcrumb a {
+    background-color: white;
+    color:black;
+}
 
 .carousel-indicators li {
     width: 10px;
@@ -31,7 +38,7 @@
 .article-img {
     width: 150px;
     cursor: pointer;
-    border: 1px solid;
+    border: 1px solid black;
     margin: 5px;
 }
 
