@@ -1,0 +1,36 @@
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+.carousel {
+    width:50%;
+    margin: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+.articles {
+    max-width: 380px;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.article-img {
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid;
+    margin: 5px;
+}
+
+.article-title {
+    color: green;
+}
