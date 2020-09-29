@@ -16,7 +16,7 @@
   }
 
 .carousel {
-    width:50%;
+    width: 800px;
     margin: auto;
 }
 
@@ -26,13 +26,9 @@
     filter: invert(100%);
 }
 
-.articles {
-    max-width: 380px;
+#card-border {
     cursor: pointer;
-    display: inline-flex;
-    margin: 10px;
-    border: 1px solid;
-    padding: 10px;
+    border: 1px solid black;
 }
 
 .article-img {
@@ -42,7 +38,7 @@
     margin: 5px;
 }
 
-.article-title, .card-title {
+.card-title {
     color: green;
 }
 
@@ -58,4 +54,9 @@ hr {
 .card, .page-link {
     border: none;
     color: black;
+}
+
+.error-msg {
+    display: none;
+    color: red;
 }
