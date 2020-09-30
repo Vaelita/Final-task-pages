@@ -35,7 +35,6 @@
     width: 150px;
     cursor: pointer;
     border: 1px solid black;
-    margin: 5px;
 }
 
 .card-title {
@@ -59,4 +58,8 @@ hr {
 .error-msg {
     display: none;
     color: red;
+}
+
+#chat-container {
+    height: 300px;
 }

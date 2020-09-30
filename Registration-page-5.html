@@ -58,9 +58,6 @@
                 </div>
                 <div class="form-group">
                     <input id="my-password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password*" aria-describedby="passwordHelpInline">
-                    <!-- <small id="passwordHelpInline" class="text-muted">
-                        Must be 8-20 characters long.
-                      </small> -->
                     <p id="password-error-fill" class="error-msg">Please fill out this field</p>
                     <p id="password-error-match" class="error-msg">Passwords must match </p>
                 </div>
@@ -76,18 +73,19 @@
                     <p id="last-name-error" class="error-msg">Please fill out this field</p>
                 </div>
                 <div class="form-group">
-                    <select id="inputState" class="form-control">
-                    <option selected id="option">Country*</option>
+                    <select class="form-control" id="input-state">
+                    <option selected>Country*</option>
                     <option>Catopia</option>
                     <option>Narnia</option>
                     <option>Beacon Hills</option>
                     <option>Springfield</option>
                     <option>District 12</option>
+                    </select>
                     <p id="option-error" class="error-msg">Please choose one of the options</p>
                 </div>
                 <div class="form-group form-check">
-                    <input id="check" type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Agree with terms and conditions*</label>
+                    <input type="checkbox" class="form-check-input" id="example-check">
+                    <label class="form-check-label" for="example-check">Agree with terms and conditions*</label>
                     <p id="check-error" class="error-msg">Please check the box to continue</p>
                 </div>
                 <button type="submit" class="btn btn-dark">Register</button>
