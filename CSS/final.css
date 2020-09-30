@@ -26,13 +26,7 @@
     filter: invert(100%);
 }
 
-#card-border {
-    cursor: pointer;
-    border: 1px solid black;
-}
-
-.article-img {
-    width: 150px;
+.card-img {
     cursor: pointer;
     border: 1px solid black;
 }
@@ -53,6 +47,10 @@ hr {
 .card, .page-link {
     border: none;
     color: black;
+}
+
+.justify-text {
+    text-align: justify;
 }
 
 .error-msg {
