@@ -1,12 +1,12 @@
 
 .breadcrumb-item {
-    color: black;
+    color: green;
     cursor: pointer;
 }
 
 .breadcrumb, .breadcrumb a {
     background-color: white;
-    color:black;
+    color:green;
 }
 
 .carousel-indicators li {
@@ -31,7 +31,7 @@
     border: 1px solid black;
 }
 
-.card-title {
+.card-title, .nav-link {
     color: green;
 }
 
@@ -60,4 +60,22 @@ hr {
 
 #chat-container {
     height: 300px;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;margin: 0 auto;
+}
+#playlist {
+    list-style: none;
+}
+
+#playlist li a {
+    color: green;
+    text-decoration: none;
+}
+
+#playlist .current-song a {
+    color: lightsalmon;
 }
